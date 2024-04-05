@@ -1,23 +1,4 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
 <a name="readme-top"></a>
-
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -29,23 +10,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/beiryu/page-daisy">
     <img src="public/images/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Game-Hub</h3>
+  <h3 align="center">Page Daisy</h3>
 
   <p align="center">
-    An awesome Game Hub!
+    An awesome Page Daisy!
     <br />
-    <a href="https://github.com/beiryu/game-hub"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/beiryu/page-daisy"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/beiryu/game-hub">View Demo</a>
+    <a href="https://github.com/beiryu/page-daisy">View Demo</a>
     ·
-    <a href="https://github.com/beiryu/game-hub/issues">Report Bug</a>
+    <a href="https://github.com/beiryu/page-daisy/issues">Report Bug</a>
     ·
-    <a href="https://github.com/beiryu/game-hub/issues">Request Feature</a>
+    <a href="https://github.com/beiryu/page-daisy/issues">Request Feature</a>
   </p>
 </div>
 
@@ -79,16 +60,19 @@
 
 ## About The Project
 
-[![Game Hub Screen Shot][product-screenshot]](https://example.com)
+[![Page Daisy Screen Shot][product-screenshot]](https://example.com)
 
-GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more.
+Page Daisy is a specialized web platform offering bookmarks adorned with pressed flowers.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-- [![React][React.js]][React-url]
-- [![Chakra UI][Chakra UI]][Chakra-ui-url]
+- [![Next.js][Next.js]][Nextjs-url]
+- [![Typescript][Typescript]][Typescript-url]
+- [![Prisma][Prisma]][Prisma-url]
+- [![Tailwind][Tailwind]][Tailwind-url]
+- [![Radix UI][Radix UI]][Radix-ui-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +80,7 @@ GameHub is a video game discovery web app that helps you find new and interestin
 
 ## Getting Started
 
-To get started with GameHub, follow these steps:
+To get started with Page Daisy, follow these steps:
 
 ### Prerequisites
 
@@ -104,20 +88,18 @@ To get started with GameHub, follow these steps:
   ```sh
   npm install npm@latest -g
   ```
-- Get a RAWG API key at https://rawg.io/apidocs. You'll have to create an account first.
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/beiryu/game-hub.git
+   git clone https://github.com/beiryu/page-daisy.git
    ```
 2. Install NPM packages
    ```sh
    npm install
    ```
-3. Add the API key to _src/services/api-client.ts_
-4. Start the web server
+3. Start the web server
    ```sh
    npm run dev
    ```
@@ -137,13 +119,9 @@ _For more examples, please refer to the [Documentation](https://rawg.io/)_
 ## Roadmap
 
 - [x] Kick-off project
-- [x] Add basic Games, Genres, Platforms.
-- [ ] Add Relesases
-- [ ] Add Reviews
-- [ ] Add authentication and profile
-- [ ] Add notifications
+- [ ] 
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/beiryu/page-daisy/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,7 +156,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 My name: Beiryu - [Khanh Nguyen Dinh](https://www.facebook.com/khanhjj.dinh/) - dinhnguyenkhanh210401@gmail.com
 
-Project Link: [https://github.com/beiryu/game-hub](https://github.com/beiryu/game-hub)
+Project Link: [https://github.com/beiryu/page-daisy](https://github.com/beiryu/page-daisy)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,29 +166,33 @@ Project Link: [https://github.com/beiryu/game-hub](https://github.com/beiryu/gam
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-- [Chakra UI](https://chakra-ui.com/)
 - [Img Shields](https://shields.io)
-- [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/beiryu/game-hub.svg?style=for-the-badge
-[contributors-url]: https://github.com/beiryu/game-hub/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/beiryu/game-hub.svg?style=for-the-badge
-[forks-url]: https://github.com/beiryu/game-hub/network/members
-[stars-shield]: https://img.shields.io/github/stars/beiryu/game-hub.svg?style=for-the-badge
-[stars-url]: https://github.com/beiryu/game-hub/stargazers
-[issues-shield]: https://img.shields.io/github/issues/beiryu/game-hub.svg?style=for-the-badge
-[issues-url]: https://github.com/beiryu/game-hub/issues
-[license-shield]: https://img.shields.io/github/license/beiryu/game-hub.svg?style=for-the-badge
-[license-url]: https://github.com/beiryu/game-hub/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/beiryu/issue-tracker.svg?style=for-the-badge
+[contributors-url]: https://github.com/beiryu/issue-tracker/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/beiryu/issue-tracker.svg?style=for-the-badge
+[forks-url]: https://github.com/beiryu/issue-tracker/network/members
+[stars-shield]: https://img.shields.io/github/stars/beiryu/issue-tracker.svg?style=for-the-badge
+[stars-url]: https://github.com/beiryu/issue-tracker/stargazers
+[issues-shield]: https://img.shields.io/github/issues/beiryu/issue-tracker.svg?style=for-the-badge
+[issues-url]: https://github.com/beiryu/issue-tracker/issues
+[license-shield]: https://img.shields.io/github/license/beiryu/issue-tracker.svg?style=for-the-badge
+[license-url]: https://github.com/beiryu/issue-tracker/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/khanh-ndinh
 [product-screenshot]: public/images/screenshot.png
-[React.js]: https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white
-[React-url]: https://reactjs.org/
-[Chakra UI]: https://img.shields.io/badge/chkraui-000000?style=for-the-badge&logo=chakraui&logoColor=white
-[Chakra-ui-url]: https://vuejs.org/
+[Next.js]: https://img.shields.io/badge/nextdotjs-000000?style=for-the-badge&logo=chakraui&logoColor=white
+[Nextjs-url]: https://nextjs.org/
+[Typescript]: https://img.shields.io/badge/typescript-000000?style=for-the-badge&logo=chakraui&logoColor=white
+[Typescript-url]: https://www.typescriptlang.org/
+[Prisma]: https://img.shields.io/badge/prisma-000000?style=for-the-badge&logo=chakraui&logoColor=white
+[Prisma-url]: https://www.prisma.io/
+[Tailwind]: https://img.shields.io/badge/tailwindcss-000000?style=for-the-badge&logo=chakraui&logoColor=white
+[Tailwind-url]: https://tailwindcss.com/
+[Radix UI]: https://img.shields.io/badge/radixui-000000?style=for-the-badge&logo=chakraui&logoColor=white
+[Radix-ui-url]: https://www.radix-ui.com/
